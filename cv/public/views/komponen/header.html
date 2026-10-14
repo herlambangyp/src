@@ -1,0 +1,25 @@
+<div id="allTemplate" class="hidden invisible opacity-0">
+    <script>render('allTemplate', 'views/template.html')</script>
+</div>
+<div id="headerMiniHero" class="flex flex-wrap flex-row items-center gap-3">
+    <script>
+        let dataMiniHero = [
+            {
+                judul: `1`,
+                keterangan: `Keternagn kotak Kecil`,
+                icon: `<i class="ri-door-open-fill"></i>`
+            },
+            {
+                judul: `2`,
+                keterangan: `Keternagn kotak Kecil2`,
+                icon: `<i class="ri-book-shelf-line"></i>`
+            },
+            {
+                judul: `3`,
+                keterangan: `Keternagn kotak Kecil3`,
+                icon: `<i class="ri-flower-fill"></i>`
+            },
+        ]
+        loopT('miniHero', dataMiniHero, 'headerMiniHero')
+    </script>
+</div>
